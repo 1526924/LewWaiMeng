@@ -1,0 +1,75 @@
+﻿#container{
+    width:100%;
+    margin:auto;
+    
+}
+
+#login {
+    width: 400px;
+    float: left;
+    height: 584px;
+    border-top-width:2px;
+    border-top-style:solid;
+    border-top-color:grey;
+    margin-left:10px;
+    padding-left:30px;
+}
+ 
+#login ul li{
+    list-style-type:none;
+    display:block;
+    margin-right:auto;
+    padding:10px;
+    
+}
+
+#Button1{
+    margin: 10px;
+}
+#Button4{
+    margin: 10px;
+}
+
+#txtusername{
+    width:200px;
+}
+#txtpassword{
+    width:200px;
+}
+#signup {
+    border-top-width:2px;
+    border-top-style:solid; 
+    border-top-color:grey;
+    width: 400px;
+    float: left;
+    margin-left: 80px;
+    padding-left:30px;
+}
+#signup ul li{
+    list-style-type:none;
+    display:block;
+    padding:10px;
+    margin: 0 0 3px 0;
+
+}
+#loginbutton{
+    display:inline-block;
+    margin:5px;
+    padding-left:20px;
+    position:inherit;
+    top: 0px;
+    left: 0px;
+}
+
+#signupbutton{
+    padding: 0 10px;
+}
+#Button2{
+   margin: 10px;
+
+
+}
+#Button3{
+   margin: 10px;
+
+}

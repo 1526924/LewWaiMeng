@@ -1,0 +1,67 @@
+﻿body {
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-left:70px;
+}
+
+h3{
+    color:indianred;
+    text-align:center;
+}
+#contactform{
+    width:482px;
+    padding-left:30px;
+    float:left;
+    overflow:hidden;
+    padding:10px;
+}
+#contactform [type="text"]{
+    width:300px;
+}
+.multiline{
+    width:300px;
+    height:300px;
+}
+#contactform ul li{
+    list-style-type:none;
+    display:block;
+    margin:auto;
+    padding:15px;
+}
+#text1{
+    float:left;
+    width:400px;
+    overflow:hidden;
+    
+}
+
+#text1 p{
+    text-align:center;
+}
+#txtname 
+{
+    width:300px;
+}
+#txtemail
+{
+    width:300px;
+}
+#txtsubject
+{
+    width:300px;
+}
+#txtmessage
+{
+    width:300px;
+    
+}
+#btnsubmit
+{
+    width:80px;
+}
+#contactform p 
+{
+    color:crimson;
+}

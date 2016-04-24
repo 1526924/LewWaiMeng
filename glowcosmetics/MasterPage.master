@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+   
+    <title>Glow Cosmetics</title>
+    
+    <link href="CSS/mystyles.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+   
+   
+</head>
+
+
+<body>
+   
+    <div id="wrapper">
+        <div id="top">
+
+            <div id="logo">
+               
+            <img class="auto-style1" src="Images/glowcosmetics.jpg" />
+
+            </div> <!-- end of logo -->
+            
+           <div id="menu">
+            <div id="navigation">
+            <ul>
+                <li><a href="default.aspx">Home</a></li>
+                <li><a href="products.html">Products</a></li>           
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="Contact.aspx">Contact Us</a></li>
+
+                
+            </ul>
+                </div> <!--end of navigation-->
+               <div id="user">
+            <ul>
+                <li ><a href="login.aspx">Login</a></li>
+                <li><a href="signup.html">My Account</a></li>
+            </ul>
+                   </div> <!-- end of user-->
+          </div> <!-- end of menu-->
+        </div> <!-- end of top -->
+       
+
+    <form id="form1" runat="server">
+    <div id="contentwrapper">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+          
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+         
+    <div id="footer">
+        <div id="sitemap">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li><a href="delivery.html">Delivery Information</a></li>
+            <li><a href="payment.html">Payment Methods</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+            <div id="socialmedia">
+                <p id="text2">FOLLOW US ON SOCIAL MEDIAS! </p>
+        <ul>   
+            <li><img alt="facebook" class="auto-style2" src="Images/images.png" /></li>
+            <li><img alt="instagram" class="auto-style4" src="Images/Instagram_icon.png" /></li>
+            <li><img alt="snapchat" class="auto-style5" src="Images/Snapchat_Logo.png" /></li>
+        </ul>
+              
+            
+                </div> <!--end of social media-->
+         </div> <!-- end of sitemap-->
+        <div id="validation">
+        <p><a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> |
+ <a href="http://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a> | <a href="http://achecker.ca/checker/?uri=referer">Check WCAG</a></p>
+        </div>
+        
+        <div id="copyright">
+            <p>Copyright 2016 Glow Cosmetics</p>
+        </div>
+
+    </div> <!--end of footer-->
+       
+    </div> 
+    
+</body>
+</html>
