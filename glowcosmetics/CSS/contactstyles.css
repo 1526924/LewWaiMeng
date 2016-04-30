@@ -30,6 +30,10 @@ h3{
     margin:auto;
     padding:15px;
 }
+#googlemap{
+    height:400px;
+    width:400px;
+}
 #text1{
     float:left;
     width:400px;
